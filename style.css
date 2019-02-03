@@ -23,6 +23,46 @@ body {
 	font-family: 'OpenSans-Regular', sans-serif;
 }
 
+h2 {
+	font-family: 'OpenSans-Bold', sans-serif;
+	text-transform: uppercase;
+	color: #e7e7e7;
+	font-size: 50px;
+	margin: 8px 0;
+	padding: 0 20px;
+}
+
+h3 {
+	font-family: 'OpenSans-Bold', sans-serif;
+	font-size: 23px;
+	text-transform: uppercase;	
+	color: #c1c1c1;
+	margin-bottom: 17px;
+	letter-spacing: 1.5px;
+}
+
+.number {
+	font-family: 'OpenSans-Bold', sans-serif;
+	color: #000;
+	font-size: 14px;
+	float: left;
+	display: block;
+	margin-top: 2px;
+	margin-right: 8px;
+	/*border-bottom: 3px solid #5e42b0;*/
+	position: relative;
+}
+
+.number::after {
+	display: block;
+	content: "";
+	height: 4px;
+	background-color: #5e42b0;
+	width: 100%;
+	margin-top: 2px;	
+	border-radius: 2px;
+}
+
 .bold {
 	font-weight: bold;
 }
@@ -33,6 +73,7 @@ body {
 	background: url("img/football_767.jpg") no-repeat;
 	background-size: cover;
   background-position: center top;
+	border-bottom: 1px solid #1883d7;
 }
 
 .top__img {
@@ -130,7 +171,101 @@ body {
 	min-width: 115px;
 }
 
+.list {
+	position: relative;
+}
+
+.list__step-wrapper {
+	margin-top: 228px;
+}
+
+.athlets-center-container {
+	max-width: 500px;
+	margin: 0 auto;	
+}
+
+.players-center-container {
+	max-width: 500px;
+	margin: 0 auto;	
+}
+
+.athlets__img-wrapper {
+	text-align: center;
+	position: absolute;
+	top: 71px;
+	left: calc(50% - 96px);
+}
+
+.players__img-wrapper {
+	text-align: center;
+	position: absolute;
+	top: 71px;
+	left: calc(50% - 151px);
+}
+
+.list__step {
+	padding: 50px 20px;
+}
+
+.list__step-description {
+	font-size: 15px;
+	letter-spacing: 1px;
+	line-height: 19px;
+}
+
+.list__step:first-child {
+	background-color: #fafafa;
+	padding-top: 76px;
+}
+
+.list__step:nth-child(2) {
+	background-color: #f5f4f9;
+}
+
+.athlets-last-step {
+	background-color: #5e42b0;
+	color: #fff;
+}
+
+.athlets-last-step .number:after, .players-last-step .number:after {
+	background-color: #fff;
+}
+
+.players-last-step {
+	background-color: #090c35;
+	color: #fff;
+}
+
+.players-last-step .number {
+	color: #8765dd;
+}
+
+
+
+
+
+
+
+
+
+
 @media(min-width: 641px) {
+	
+	h2 {
+		font-size: 80px;
+		margin-top: 64px;
+	}
+
+	.number {
+		font-size: 18px;
+    /*border-bottom: 5px solid #5e42b0;*/
+	}
+
+	.number::after {
+		height: 5px;
+	}
+	
+	
 	.top {
 		background-image: url("img/football_1280.jpg");
 	}
@@ -142,6 +277,7 @@ body {
 	.top__logo-wrapper {
 		margin-bottom: 16.8vh;
 	}
+	
 	.top__text-wrapper {
 		margin: 0 10%;
     line-height: 116%;
@@ -196,7 +332,64 @@ body {
 		height: 46px;
 		margin-right: 26px;
 	}
+	
+	
+	.list__step-wrapper {
+		margin-top: 0;
+	}
+	
+	.list__step:first-child {
+		background-color: transparent;
+	}
+	
+	.athlets-center-container {
+		margin: 0;
+		margin-left: 35.5vw;
+		max-width: 65.10vw;
+	}
+	
+	.players-center-container {
+		margin: 0;
+		max-width: 65.10vw;
+	}
+	
+	.list__relative-position {
+		position: relative;
+	}
+	
+	.athlets__img-wrapper {
+		left: -435px;
+		top: 36px;
+	}
+	
+	.players__img-wrapper {
+		right: -470px;
+		top: -17px;
+	}
+	
+	.list__step-title {
+		font-size: 32px;
+	}
+	
+	.list__step-description {
+		font-size: 16px;
+		line-height: 27px;
+	}
+	
+	.list__step {
+		padding: 32px 20px;
+	}
+	
+	.list__step:first-child {
+		padding-top: 22px;
+	}
+	
+
 }
+
+
+
+
 
 @media(min-width: 961px) {
 
@@ -229,5 +422,68 @@ body {
 	
 	.top__store:first-child {
 		margin-right: 50px;
+	}
+	
+	.athlets__img-wrapper {
+    left: -584px;
+    top: 12px;
+	}
+	
+	.players__img-wrapper {
+    right: -1200px;
+    top: -72px;
+	}	
+	
+	.athlets-center-container {
+		max-width: 716px;
+	}
+	
+	.players-center-container {
+		max-width: 716px;
+	}
+	
+	.list__step-title {
+		font-size: 36px;
+	}
+	
+	.list__step-description {
+		font-size: 20px;
+	}
+	
+	.number {
+		margin-top: 7px;
+	}
+	
+	.athlets-center-container {
+		margin-left: 51.5vw;
+	}
+	
+	.players-center-container {
+		/*margin-left: 51.5vw;*/
+		margin-left: auto;
+		margin-right: 51.5vw;
+	}
+	
+	h2 {
+		margin-top: 88px;
+		margin-bottom: 50px;
+	}
+	
+	h3 {
+		margin-bottom: 15px;
+	}
+	
+	.list__step {
+		padding: 52px 20px;
+	}
+	
+	.athlets-img-wrapper {
+		left: -596px;
+		top: -61px;
+	}
+	
+	.players-img-wrapper {
+		left: -596px;
+		top: -61px;
 	}
 }
