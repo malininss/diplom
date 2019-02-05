@@ -31,7 +31,7 @@ main {
 footer {
 	width: 100%;
 	min-height: 100vh;
-	background: url(img/game_767.jpg) no-repeat;
+	background: url(img/game_767.jpg1) no-repeat;
 	background-size: cover;
 	background-position: center top;
 }
@@ -82,7 +82,7 @@ h3 {
 .top {
 	width: 100%;
   min-height: 100vh;
-	background: url("img/football_767.jpg") no-repeat;
+	background: url("img/football_767.jpg1") no-repeat;
 	background-size: cover;
   background-position: center top;
 	border-bottom: 1px solid #1883d7;
@@ -98,7 +98,7 @@ h3 {
 	margin-bottom: 21.47vh;
 }
 
-.top__logo {
+.logo {
 	fill: #fff;
 	width: 133px;
   margin-top: 33px;
@@ -124,7 +124,7 @@ h3 {
 	margin-bottom: 14vh;
 }
 
-.top__store-wrapper {
+.button-wrapper {
   font-family: 'OpenSans-Regular';
 	font-size: 8px;
 	color: #fff;
@@ -134,7 +134,7 @@ h3 {
 	padding-bottom: 84px;
 }
 
-.top__store {
+.button {
 	height: 35px;
 	max-width: 280px;
 	margin:	0 auto;
@@ -145,7 +145,7 @@ h3 {
 	justify-content: center;
 }
 
-.top__store:hover {
+.button:hover {
 	background-color: #49338c;
 	cursor: pointer;
 }
@@ -166,7 +166,7 @@ h3 {
 	margin-right: 8px;
 }
 
-.top__store-container {
+.button-container {
 	display: flex;
 	align-items: center;
 	min-width: 115px;
@@ -306,11 +306,12 @@ h3 {
 	min-height: 100vh;
 	padding: 20px;
 	position: relative;
+	
 }
 
 .last-screen__text-wrapper {
 	text-align: center;
-	margin-bottom: 14vh;
+	margin-bottom: 12vh;
 }
 
 .last-screen__first-text {
@@ -347,11 +348,24 @@ h3 {
 	height: 72px;
 }
 
+.bottom_logo-wrapper {
+	position: absolute;
+	width: calc(100% - 40px);
+	bottom: 6px;
+	text-align: center;
+}
 
+.second-list__element-wrapper {
+	min-height: 330px;
+}
 
 
 
 @media(min-width: 641px) {
+	
+	footer {
+    background: url(img/game_1280.jpg1) no-repeat;		
+	}
 	
 	h2 {
 		font-size: 80px;
@@ -369,10 +383,10 @@ h3 {
 	
 	
 	.top {
-		background-image: url("img/football_1280.jpg");
+		background-image: url("img/football_1280.jpg1");
 	}
 	
-	.top__logo {
+	.logo {
 		width: 205px;
 		margin-top: 39px;
 	}
@@ -393,17 +407,17 @@ h3 {
 		margin-bottom: 31vh;
 	}
 	
-	.top__store-wrapper {
+	.button-wrapper {
 		display: flex;
 		justify-content: center;
     letter-spacing: 1px;
 	}
 	
-	.top__store-container {
+	.button-container {
 		margin-right: 20px;
 	}
 	
-	.top__store {
+	.button {
 		height: 77px;
 		flex-basis: 312px;
 		max-width: 312px;
@@ -411,11 +425,11 @@ h3 {
 		margin: 0;
 	}
 	
-	.top__store:first-child {
+	.button:first-child {
 		margin-right: 30px;
 	}
 	
-	.top__store-wrapper {
+	.button-wrapper {
 		font-size: 14px;
 		line-height: 18px;
 		margin: 0 20px;
@@ -542,7 +556,7 @@ h3 {
 	.last-screen-logo-wrapper {
 		width: 130px;
 		height: 137px;
-		border-radius: 40px;
+		border-radius: 28px;
 	}
 	
 	.last-scren-logo-svg {
@@ -550,6 +564,12 @@ h3 {
 		height: 87px;
     margin-top: calc(50% - 43.5px);
 	}
+	
+	.last-screen .button-wrapper {
+		padding-bottom: 90px;
+	}
+	
+
 }
 
 
@@ -565,16 +585,24 @@ h3 {
 	.second-list .list__step-description {
 		font-size: 20px;
 	}
+	
+	.bottom_logo-wrapper {
+		bottom: 20px;
+	}
 }
 
 
 @media(min-width: 961px) {
+	
+	footer {
+    background: url(img/game_1920.jpg1) no-repeat;		
+	}
 
 	.top {
-		background-image: url("img/football_1920.jpg");
+		background-image: url("img/football_1920.jpg1");
 	}
 	
-	.top__logo {
+	.logo {
 		width: 192px;
 	}
 
@@ -597,7 +625,7 @@ h3 {
 		margin-bottom: 21vh;
 	}
 	
-	.top__store:first-child {
+	.button:first-child {
 		margin-right: 50px;
 	}
 	
@@ -607,8 +635,8 @@ h3 {
 	}
 	
 	.players__img-wrapper {
-    right: -1200px;
-    top: -72px;
+    right: -1253px;
+    top: -79px;
 	}	
 	
 	.athlets__img-old-browser {
@@ -727,8 +755,8 @@ h3 {
 	
 	.last-screen__text-wrapper {
 		text-align: left;
-		width: 865px;
-		margin: 204px auto 150px auto;
+		width: 873px;
+    margin: 19.44vh auto 13.88vh auto;
 		
 	}
 	
@@ -737,8 +765,7 @@ h3 {
 		height: 137px;
 		float: left;
 		margin: 0;
-		margin-right: 20px;
-		margin-top: 14px;
+		margin-right: 30px;
 		
 	}
 	
@@ -750,10 +777,21 @@ h3 {
 	
 	.last-screen__first-text {
 		font-size: 80px;
+		letter-spacing: 4px;
+		line-height: 90px;
 	}
 	
 	.last-screen__second-text {
 		font-size: 30px;
+	}
+	
+	.bottom_logo-wrapper {
+		width: calc(100% - 40px);
+		bottom: 53px;
+	}
+	
+	.last-screen .button-wrapper {
+		padding-bottom: 180px;
 	}
 
 }
