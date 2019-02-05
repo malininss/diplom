@@ -540,7 +540,7 @@ h3 {
 	
 		
 	.last-screen-logo-wrapper {
-		width: 137px;
+		width: 130px;
 		height: 137px;
 		border-radius: 40px;
 	}
@@ -593,7 +593,7 @@ h3 {
 	}
 
 	.top__second-text {
-		margin-left: auto;
+		text-align: right;
 		margin-bottom: 21vh;
 	}
 	
@@ -727,13 +727,13 @@ h3 {
 	
 	.last-screen__text-wrapper {
 		text-align: left;
-		width: 840px;
-		margin: 230px auto 150px auto;
+		width: 865px;
+		margin: 204px auto 150px auto;
 		
 	}
 	
 	.last-screen-logo-wrapper {
-		width: 137px;
+		width: 130px;
 		height: 137px;
 		float: left;
 		margin: 0;
