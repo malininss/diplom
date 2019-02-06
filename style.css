@@ -31,7 +31,7 @@ main {
 footer {
 	width: 100%;
 	min-height: 100vh;
-	background: url(img/game_767.jpg1) no-repeat;
+	background: url(img/game_767.jpg) no-repeat;
 	background-size: cover;
 	background-position: center top;
 }
@@ -82,7 +82,7 @@ h3 {
 .top {
 	width: 100%;
   min-height: 100vh;
-	background: url("img/football_767.jpg1") no-repeat;
+	background: url("img/football_767.jpg") no-repeat;
 	background-size: cover;
   background-position: center top;
 	border-bottom: 1px solid #1883d7;
@@ -364,7 +364,7 @@ h3 {
 @media(min-width: 641px) {
 	
 	footer {
-    background: url(img/game_1280.jpg1) no-repeat;		
+    background: url(img/game_1280.jpg) no-repeat;		
 	}
 	
 	h2 {
@@ -383,7 +383,7 @@ h3 {
 	
 	
 	.top {
-		background-image: url("img/football_1280.jpg1");
+		background-image: url("img/football_1280.jpg");
 	}
 	
 	.logo {
@@ -488,7 +488,7 @@ h3 {
 	}
 	
 	.athlets__img-old-browser {
-	width: 497px;
+	width: 424px;
 	height: auto;
 	}
 	
@@ -595,11 +595,11 @@ h3 {
 @media(min-width: 961px) {
 	
 	footer {
-    background: url(img/game_1920.jpg1) no-repeat;		
+    background: url(img/game_1920.jpg) no-repeat;		
 	}
 
 	.top {
-		background-image: url("img/football_1920.jpg1");
+		background-image: url("img/football_1920.jpg");
 	}
 	
 	.logo {
